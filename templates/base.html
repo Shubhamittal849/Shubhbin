@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PPaste!</title>
+    <title>Shubhbin</title>
 
     {% if track %}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
@@ -16,12 +16,10 @@
 
   <body>
       <div class="container">
-	<h1>PPaste!</h1>
+	<h1>Shubhbin!</h1>
 	<h3>{% block title %}{% endblock %}</h3>
 	<p><a href="{{ url_for('home') }}">Home</a> -
-	  <a href="{{ url_for('list_pastes') }}">All the pastes</a> -
-	  <a href="https://github.com/Thooms/PPaste">Authored by Thooms</a>
-
+	  <a href="{{ url_for('list_pastes') }}">All the pastes</a> 
 	</p>
 
       </div>
